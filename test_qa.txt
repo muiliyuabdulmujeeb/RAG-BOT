@@ -1,0 +1,398 @@
+{
+  "question": "What is a water monitoring system?",
+  "document_ids": [
+    5
+  ],
+  "top_k": 10
+}
+
+
+{
+  "answer": "A water monitoring system is described as part of a control and instrumentation process that involves measuring various physical parameters such as pressure, flows, temperature, heights in aviation, speed in automotive, patients' breathing rate in healthcare, etc. However, in the context provided, specifically for water level management, it refers to a system that uses sensors, typically ultrasonic or water level sensors, connected to an Arduino board and possibly other hardware components like flow switches, timers, relays, and GSM modules, to monitor and control the water levels in tanks or storage systems.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": 660,
+      "document_id": 5,
+      "content": ", including the accuracy needed, the type of liquid being measured, and the environmental conditions. liquid level measurements are important for liquid level monitoring and control. in the case of water storage systems, monitoring is done to provide real - time data on water levels, quality, and water pump system performance for timely interventions, while control serves to regulate the filling, draining, and distribution of water within the storage systems for maintaining optimal levels. monitoring and controlling systems in residential, commercial, and industrial settings to ensure efficient operation, safety, and comfort are crucial. residential buildings make use of automation systems that control lighting, temperature, security cameras, and even appliances remotely, while commercial settings have heating, ventilation, and air conditioning ( hvac ) systems, lighting, access control, surveillance systems, and other necessities. in industries, advanced monitoring and control systems are use d to manage complex processes,",
+      "score": 0.695995569229126
+    },
+    {
+      "chunk_id": 687,
+      "document_id": 5,
+      "content": "system consists of contactors ( including bypass electromagnetic contactors ), fuses, soft starter, circuit breaker, flow switch, timer, and magnetic switch sensor. the system also contains an arduino board, high - level, medium - level, and low - level sensors, a smoke sensor, a passive infrared ( pir ) sensor, an analog to digital converter, an lcd, relays, and a sim900a gsm / gprs module. the method used by the system to monitor water levels is the use of two probes in the highest possible level labeled h and the lowest possible level labeled l. if the water reaches the h level, a water pump switch off command is sent, while when it reaches the l level, a water pump switch on command is sent. a system measuring four water parameters, based on arduino mega, esp8266 wifi module, and thingspeak iot platform was proposed by pasika & gandla",
+      "score": 0.6916186397302974
+    },
+    {
+      "chunk_id": 746,
+      "document_id": 5,
+      "content": "1 - 4842 - 2896 - 8 gast, m. ( 2005 ). 802. 11 wireless networks : the definitive guide. “ o ’ reilly media, inc. ” hadipour, m., derakhshandeh, j. f., & shiran, m. a. ( 2020 ). an experimental setup of multi - intelligent control system ( mics ) of water management using the internet of things ( iot ). isa transactions, 96, 309 – 326. https : / / doi. org / 10. 1016 / j. isatra. 2019. 06. 026 hasan, m. m. ( 2020 ). automatic water pump controller and water level detector with microcontroller ic. international research journal of engineering and technology. www. irjet. net jiang, p., xia, h., he, z., & wang, z. ( 2009 ). design of a water environment monitoring system based on wireless sensor networks",
+      "score": 0.6384330987930298
+    },
+    {
+      "chunk_id": 672,
+      "document_id": 5,
+      "content": "foremost essentiality in control and instrumentation. pressure, flows, temperature are measured in homes and industries ; heights in aviation ; speed in automotive ; as well as patients breathing rate in healthcare, are all measurable with sensors ( singh, 2005 ). when sensors are capable of obtaining data and reporting it remotely, these sensors are remotely sensing as well. remote sensing is not only limited to data from satellites. ( chen, 2007 ). remotely sensed data leads to the remote monitoring of the physical situation being sensed. remote monitoring of water using wireless sensor networks is based on low - cost and low - power sensors that automatically do the monitoring tasks and, in real - time, provide the data being monitored. the monitoring can be divided into parts : the data monitoring node or nodes and the data base station. the data monitoring nodes transmit the monitored data to the",
+      "score": 0.6290594339370728
+    },
+    {
+      "chunk_id": 682,
+      "document_id": 5,
+      "content": "8 internet. daily water consumption, hybrid control ( from the hardware or from the phone remotely ), text messages about the system information, volume of water in tank and tank overflow control are some of the features of the system. nath et al., 2022 presented a study on iot and radio frequency ( rf ) for an automatic water management system. minimizing waste water, saving power, and minimizing human intervention are the benefits that will be provided by the implementation of iot into water level management. the system further comprises an ultrasonic sensor and a water level sensor, a 433mhz rf transmitter and receiver, a 16x2 lcd, a pair of atmega328p, a two - channel relay module, and a pair of water pumps that run on 5v. the study is divided into two based on the prototype developed in it. the transmitter section ( located at the roof tank ) and the receiver section ( located at a reservoir tank of",
+      "score": 0.6070439996434452
+    },
+    {
+      "chunk_id": 701,
+      "document_id": 5,
+      "content": "16 table 2. 5. continuation of review of related works s / n author title of work done approach limitation 11 rakshitha & maheshan, 2020 a review on water level & quality monitoring system two ultrasonic sensors were part of the proposed methodology. one handles the storage tank, while the second ultrasonic sensor is in charge of an overhead tank, both for water level detection. arduino uno which is in charge of the overall task include the ph sensor data, turbidity sensor data, and the individual data from the two ultrasonic sensors. 12 nur ilham et al., 2020 design of an automatic water pump on a traditional boat this system function as a tool that controls the level of water in a boat by turning on and off the water pump engine automatically. it makes use of water sensor to detect water entering the boat, using water pump, water sensor, buzzer, and battery as source of power to the system.",
+      "score": 0.6048248410224915
+    },
+    {
+      "chunk_id": 663,
+      "document_id": 5,
+      "content": "monitoring can be done with solar energy, hence making the monitoring system independent in terms of power source. 1. 2 statement of the problem as explained in the work of parenreng et al., 2023, the location of the water tank is at a position higher than the floor level ; this is for proper flow of water into the house. this position will make it difficult for the user to find out the level of water in the tank at this location. similarly, this is based on human intervention, which cannot be compared to digitalizing the process using electronics. also, the forgetfulness of the user to turn off the water pump when the water tank is full can lead to wastage of water. the estimate in the study of qadir et al., 2020 is thatby 2030, wastewater is expected to increase by 24 %. it was also included that 158 million households could be powered by the energy embedded in wastewater. from the statements above, it can be deduced",
+      "score": 0.6013602018356323
+    },
+    {
+      "chunk_id": 638,
+      "document_id": 5,
+      "content": "......................................................... 5 2. 1. 1 internet of things ( iot )....................................................................................... 5 2. 1. 2 water monitoring system based on wireless sensor network........................... 5 2",
+      "score": 0.6005373835243365
+    },
+    {
+      "chunk_id": 671,
+      "document_id": 5,
+      "content": "connected to the internet ( cloud ) are hardware with resilient connectivity methods. multiple hardware can be connected to each other as in smart homes, which is one of the areas of application of iot, using technologies not limited to bidcos, z - wave, zigbe e, li - fi, redtacton, and wi - fi ( the internet of things ( iot ) and its application domains ). application of iot can be found in industries ( industrial internet of things - iiot ), energy internet of things - eiot ), smart cities and smart homes, healthcare, and agriculture, inclusive ( perwej et al., 2019 ). 2. 1. 2 water monitoring system based on wireless sensor network sensors convert various physical parameters into electrical signals, with their foremost essentiality in control and instrumentation. pressure, flows, temperature are measured in homes and industries ; heights in aviation ; speed in automotive ; as well as patients breathing rate in healthcare, are all me",
+      "score": 0.5952971577644348
+    },
+    {
+      "chunk_id": 691,
+      "document_id": 5,
+      "content": "while two ultrasonic sensors were part of the proposed methodology. one ultrasonic sensor handles the storage tank, while the second ultrasonic sensor is in charge of the overhead tank, both for water level detection. in combination, the inputs to the arduino uno which is in charge of the overall task include the ph sensor data, turbidity sensor data, and the individual data from the two ultrasonic sensors. in a different application is the work of nur ilham et al., 2020 where water pumping is implemented on a traditional boat. this system function as a tool that controls the level of water in a boat by turning on and off the water pump engine automatically. it makes use of water sensor to detect water entering the boat, in which when the water reaches the level of greater than or equal to 5cm height, it automatically starts a buzzer in the system for alarm. it also switches on the water pump to drain the water until the water does not reach the water sensor anymore",
+      "score": 0.5913310050964355
+    }
+  ]
+}
+
+
+
+
+{
+  "question": "What is a water monitoring system?",
+  "document_ids": [
+    5
+  ],
+  "top_k": 3
+}
+
+
+{
+  "answer": "A water monitoring system involves the use of various technologies to monitor and control water levels in storage systems. It consists of sensors, probes, and automation systems that provide real-time data on water levels, quality, and pump performance. The system also includes devices such as contactors, fuses, soft starters, circuit breakers, flow switches, timers, magnetic switch sensors, and an Arduino board to monitor and control the water level.\n\nIn residential settings, a water monitoring system may include automation systems that remotely control lighting, temperature, security cameras, and appliances. In commercial settings, it may involve heating, ventilation, and air conditioning (HVAC) systems, lighting, access control, surveillance systems, and other necessities.\n\nThe method used by the system to monitor water levels is typically based on two probes in the highest possible level labeled \"H\" and the lowest possible level labeled \"L\". When the water reaches the H level, a water pump switch-off command is sent, while when it reaches the L level, a water pump switch-on command is sent.\n\nOverall, a water monitoring system aims to provide efficient operation, safety, and comfort by monitoring and controlling water levels in storage systems.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": 660,
+      "document_id": 5,
+      "content": ", including the accuracy needed, the type of liquid being measured, and the environmental conditions. liquid level measurements are important for liquid level monitoring and control. in the case of water storage systems, monitoring is done to provide real - time data on water levels, quality, and water pump system performance for timely interventions, while control serves to regulate the filling, draining, and distribution of water within the storage systems for maintaining optimal levels. monitoring and controlling systems in residential, commercial, and industrial settings to ensure efficient operation, safety, and comfort are crucial. residential buildings make use of automation systems that control lighting, temperature, security cameras, and even appliances remotely, while commercial settings have heating, ventilation, and air conditioning ( hvac ) systems, lighting, access control, surveillance systems, and other necessities. in industries, advanced monitoring and control systems are use d to manage complex processes,",
+      "score": 0.695995569229126
+    },
+    {
+      "chunk_id": 687,
+      "document_id": 5,
+      "content": "system consists of contactors ( including bypass electromagnetic contactors ), fuses, soft starter, circuit breaker, flow switch, timer, and magnetic switch sensor. the system also contains an arduino board, high - level, medium - level, and low - level sensors, a smoke sensor, a passive infrared ( pir ) sensor, an analog to digital converter, an lcd, relays, and a sim900a gsm / gprs module. the method used by the system to monitor water levels is the use of two probes in the highest possible level labeled h and the lowest possible level labeled l. if the water reaches the h level, a water pump switch off command is sent, while when it reaches the l level, a water pump switch on command is sent. a system measuring four water parameters, based on arduino mega, esp8266 wifi module, and thingspeak iot platform was proposed by pasika & gandla",
+      "score": 0.6916186397302974
+    },
+    {
+      "chunk_id": 746,
+      "document_id": 5,
+      "content": "1 - 4842 - 2896 - 8 gast, m. ( 2005 ). 802. 11 wireless networks : the definitive guide. “ o ’ reilly media, inc. ” hadipour, m., derakhshandeh, j. f., & shiran, m. a. ( 2020 ). an experimental setup of multi - intelligent control system ( mics ) of water management using the internet of things ( iot ). isa transactions, 96, 309 – 326. https : / / doi. org / 10. 1016 / j. isatra. 2019. 06. 026 hasan, m. m. ( 2020 ). automatic water pump controller and water level detector with microcontroller ic. international research journal of engineering and technology. www. irjet. net jiang, p., xia, h., he, z., & wang, z. ( 2009 ). design of a water environment monitoring system based on wireless sensor networks",
+      "score": 0.6384330987930298
+    }
+  ]
+}
+
+
+{
+  "question": "What is a water monitoring system?",
+  "document_ids": [
+    5
+  ],
+  "top_k": 5
+}
+
+{
+  "answer": "A water monitoring system is used to monitor and control water levels, quality, and pump system performance in real-time for timely interventions. It typically consists of sensors, such as probes, and automation systems that can be remotely controlled. The system may also include features like daily water consumption tracking, hybrid control, text message alerts, and tank overflow control.\n\nIn the context provided, a specific example of a water monitoring system is described in Chunk 2, which uses two probes labeled H and L to monitor water levels and sends commands to switch on or off the water pump accordingly.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": 660,
+      "document_id": 5,
+      "content": ", including the accuracy needed, the type of liquid being measured, and the environmental conditions. liquid level measurements are important for liquid level monitoring and control. in the case of water storage systems, monitoring is done to provide real - time data on water levels, quality, and water pump system performance for timely interventions, while control serves to regulate the filling, draining, and distribution of water within the storage systems for maintaining optimal levels. monitoring and controlling systems in residential, commercial, and industrial settings to ensure efficient operation, safety, and comfort are crucial. residential buildings make use of automation systems that control lighting, temperature, security cameras, and even appliances remotely, while commercial settings have heating, ventilation, and air conditioning ( hvac ) systems, lighting, access control, surveillance systems, and other necessities. in industries, advanced monitoring and control systems are use d to manage complex processes,",
+      "score": 0.695995569229126
+    },
+    {
+      "chunk_id": 687,
+      "document_id": 5,
+      "content": "system consists of contactors ( including bypass electromagnetic contactors ), fuses, soft starter, circuit breaker, flow switch, timer, and magnetic switch sensor. the system also contains an arduino board, high - level, medium - level, and low - level sensors, a smoke sensor, a passive infrared ( pir ) sensor, an analog to digital converter, an lcd, relays, and a sim900a gsm / gprs module. the method used by the system to monitor water levels is the use of two probes in the highest possible level labeled h and the lowest possible level labeled l. if the water reaches the h level, a water pump switch off command is sent, while when it reaches the l level, a water pump switch on command is sent. a system measuring four water parameters, based on arduino mega, esp8266 wifi module, and thingspeak iot platform was proposed by pasika & gandla",
+      "score": 0.6916186397302974
+    },
+    {
+      "chunk_id": 746,
+      "document_id": 5,
+      "content": "1 - 4842 - 2896 - 8 gast, m. ( 2005 ). 802. 11 wireless networks : the definitive guide. “ o ’ reilly media, inc. ” hadipour, m., derakhshandeh, j. f., & shiran, m. a. ( 2020 ). an experimental setup of multi - intelligent control system ( mics ) of water management using the internet of things ( iot ). isa transactions, 96, 309 – 326. https : / / doi. org / 10. 1016 / j. isatra. 2019. 06. 026 hasan, m. m. ( 2020 ). automatic water pump controller and water level detector with microcontroller ic. international research journal of engineering and technology. www. irjet. net jiang, p., xia, h., he, z., & wang, z. ( 2009 ). design of a water environment monitoring system based on wireless sensor networks",
+      "score": 0.6384330987930298
+    },
+    {
+      "chunk_id": 672,
+      "document_id": 5,
+      "content": "foremost essentiality in control and instrumentation. pressure, flows, temperature are measured in homes and industries ; heights in aviation ; speed in automotive ; as well as patients breathing rate in healthcare, are all measurable with sensors ( singh, 2005 ). when sensors are capable of obtaining data and reporting it remotely, these sensors are remotely sensing as well. remote sensing is not only limited to data from satellites. ( chen, 2007 ). remotely sensed data leads to the remote monitoring of the physical situation being sensed. remote monitoring of water using wireless sensor networks is based on low - cost and low - power sensors that automatically do the monitoring tasks and, in real - time, provide the data being monitored. the monitoring can be divided into parts : the data monitoring node or nodes and the data base station. the data monitoring nodes transmit the monitored data to the",
+      "score": 0.6290594339370728
+    },
+    {
+      "chunk_id": 682,
+      "document_id": 5,
+      "content": "8 internet. daily water consumption, hybrid control ( from the hardware or from the phone remotely ), text messages about the system information, volume of water in tank and tank overflow control are some of the features of the system. nath et al., 2022 presented a study on iot and radio frequency ( rf ) for an automatic water management system. minimizing waste water, saving power, and minimizing human intervention are the benefits that will be provided by the implementation of iot into water level management. the system further comprises an ultrasonic sensor and a water level sensor, a 433mhz rf transmitter and receiver, a 16x2 lcd, a pair of atmega328p, a two - channel relay module, and a pair of water pumps that run on 5v. the study is divided into two based on the prototype developed in it. the transmitter section ( located at the roof tank ) and the receiver section ( located at a reservoir tank of",
+      "score": 0.6070439996434452
+    }
+  ]
+}
+
+
+
+UPON CHANGING TEMPRATURE TO 0.1 and rewriting the system prompt to include constraints and rules
+
+
+{
+  "question": "What is a water monitoring system?",
+  "document_ids": [
+    5
+  ],
+  "top_k": 3
+}
+
+{
+  "answer": "A water monitoring system is used to monitor and control the levels of liquids in storage systems, such as water storage systems, for residential, commercial, and industrial settings. It provides real-time data on water levels, quality, and pump system performance, and regulates filling, draining, and distribution of water within the systems.\n\nIn one proposed system, two probes are used to monitor water levels, sending commands to switch off or on a water pump based on the level reached.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": 660,
+      "document_id": 5,
+      "content": ", including the accuracy needed, the type of liquid being measured, and the environmental conditions. liquid level measurements are important for liquid level monitoring and control. in the case of water storage systems, monitoring is done to provide real - time data on water levels, quality, and water pump system performance for timely interventions, while control serves to regulate the filling, draining, and distribution of water within the storage systems for maintaining optimal levels. monitoring and controlling systems in residential, commercial, and industrial settings to ensure efficient operation, safety, and comfort are crucial. residential buildings make use of automation systems that control lighting, temperature, security cameras, and even appliances remotely, while commercial settings have heating, ventilation, and air conditioning ( hvac ) systems, lighting, access control, surveillance systems, and other necessities. in industries, advanced monitoring and control systems are use d to manage complex processes,",
+      "score": 0.695995569229126
+    },
+    {
+      "chunk_id": 687,
+      "document_id": 5,
+      "content": "system consists of contactors ( including bypass electromagnetic contactors ), fuses, soft starter, circuit breaker, flow switch, timer, and magnetic switch sensor. the system also contains an arduino board, high - level, medium - level, and low - level sensors, a smoke sensor, a passive infrared ( pir ) sensor, an analog to digital converter, an lcd, relays, and a sim900a gsm / gprs module. the method used by the system to monitor water levels is the use of two probes in the highest possible level labeled h and the lowest possible level labeled l. if the water reaches the h level, a water pump switch off command is sent, while when it reaches the l level, a water pump switch on command is sent. a system measuring four water parameters, based on arduino mega, esp8266 wifi module, and thingspeak iot platform was proposed by pasika & gandla",
+      "score": 0.6916186397302974
+    },
+    {
+      "chunk_id": 746,
+      "document_id": 5,
+      "content": "1 - 4842 - 2896 - 8 gast, m. ( 2005 ). 802. 11 wireless networks : the definitive guide. “ o ’ reilly media, inc. ” hadipour, m., derakhshandeh, j. f., & shiran, m. a. ( 2020 ). an experimental setup of multi - intelligent control system ( mics ) of water management using the internet of things ( iot ). isa transactions, 96, 309 – 326. https : / / doi. org / 10. 1016 / j. isatra. 2019. 06. 026 hasan, m. m. ( 2020 ). automatic water pump controller and water level detector with microcontroller ic. international research journal of engineering and technology. www. irjet. net jiang, p., xia, h., he, z., & wang, z. ( 2009 ). design of a water environment monitoring system based on wireless sensor networks",
+      "score": 0.6384330987930298
+    }
+  ]
+}
+
+
+
+{
+  "question": "What is a water monitoring system?",
+  "document_ids": [
+    5
+  ],
+  "top_k": 5
+}
+
+
+
+{
+  "answer": "A water monitoring system is used to monitor water levels, quality, and pump system performance in real-time for timely interventions. It also regulates the filling, draining, and distribution of water within storage systems for maintaining optimal levels.\n\nAdditionally, according to Excerpt 2, a specific example of a water monitoring system consists of various sensors, an Arduino board, and other components that measure water levels using two probes labeled \"h\" and \"l\", sending commands to switch on or off the water pump accordingly.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": 660,
+      "document_id": 5,
+      "content": ", including the accuracy needed, the type of liquid being measured, and the environmental conditions. liquid level measurements are important for liquid level monitoring and control. in the case of water storage systems, monitoring is done to provide real - time data on water levels, quality, and water pump system performance for timely interventions, while control serves to regulate the filling, draining, and distribution of water within the storage systems for maintaining optimal levels. monitoring and controlling systems in residential, commercial, and industrial settings to ensure efficient operation, safety, and comfort are crucial. residential buildings make use of automation systems that control lighting, temperature, security cameras, and even appliances remotely, while commercial settings have heating, ventilation, and air conditioning ( hvac ) systems, lighting, access control, surveillance systems, and other necessities. in industries, advanced monitoring and control systems are use d to manage complex processes,",
+      "score": 0.695995569229126
+    },
+    {
+      "chunk_id": 687,
+      "document_id": 5,
+      "content": "system consists of contactors ( including bypass electromagnetic contactors ), fuses, soft starter, circuit breaker, flow switch, timer, and magnetic switch sensor. the system also contains an arduino board, high - level, medium - level, and low - level sensors, a smoke sensor, a passive infrared ( pir ) sensor, an analog to digital converter, an lcd, relays, and a sim900a gsm / gprs module. the method used by the system to monitor water levels is the use of two probes in the highest possible level labeled h and the lowest possible level labeled l. if the water reaches the h level, a water pump switch off command is sent, while when it reaches the l level, a water pump switch on command is sent. a system measuring four water parameters, based on arduino mega, esp8266 wifi module, and thingspeak iot platform was proposed by pasika & gandla",
+      "score": 0.6916186397302974
+    },
+    {
+      "chunk_id": 746,
+      "document_id": 5,
+      "content": "1 - 4842 - 2896 - 8 gast, m. ( 2005 ). 802. 11 wireless networks : the definitive guide. “ o ’ reilly media, inc. ” hadipour, m., derakhshandeh, j. f., & shiran, m. a. ( 2020 ). an experimental setup of multi - intelligent control system ( mics ) of water management using the internet of things ( iot ). isa transactions, 96, 309 – 326. https : / / doi. org / 10. 1016 / j. isatra. 2019. 06. 026 hasan, m. m. ( 2020 ). automatic water pump controller and water level detector with microcontroller ic. international research journal of engineering and technology. www. irjet. net jiang, p., xia, h., he, z., & wang, z. ( 2009 ). design of a water environment monitoring system based on wireless sensor networks",
+      "score": 0.6384330987930298
+    },
+    {
+      "chunk_id": 672,
+      "document_id": 5,
+      "content": "foremost essentiality in control and instrumentation. pressure, flows, temperature are measured in homes and industries ; heights in aviation ; speed in automotive ; as well as patients breathing rate in healthcare, are all measurable with sensors ( singh, 2005 ). when sensors are capable of obtaining data and reporting it remotely, these sensors are remotely sensing as well. remote sensing is not only limited to data from satellites. ( chen, 2007 ). remotely sensed data leads to the remote monitoring of the physical situation being sensed. remote monitoring of water using wireless sensor networks is based on low - cost and low - power sensors that automatically do the monitoring tasks and, in real - time, provide the data being monitored. the monitoring can be divided into parts : the data monitoring node or nodes and the data base station. the data monitoring nodes transmit the monitored data to the",
+      "score": 0.6290594339370728
+    },
+    {
+      "chunk_id": 682,
+      "document_id": 5,
+      "content": "8 internet. daily water consumption, hybrid control ( from the hardware or from the phone remotely ), text messages about the system information, volume of water in tank and tank overflow control are some of the features of the system. nath et al., 2022 presented a study on iot and radio frequency ( rf ) for an automatic water management system. minimizing waste water, saving power, and minimizing human intervention are the benefits that will be provided by the implementation of iot into water level management. the system further comprises an ultrasonic sensor and a water level sensor, a 433mhz rf transmitter and receiver, a 16x2 lcd, a pair of atmega328p, a two - channel relay module, and a pair of water pumps that run on 5v. the study is divided into two based on the prototype developed in it. the transmitter section ( located at the roof tank ) and the receiver section ( located at a reservoir tank of",
+      "score": 0.6070439996434452
+    }
+  ]
+}
+
+
+{
+  "question": "What is a water monitoring system?",
+  "document_ids": [
+    5
+  ],
+  "top_k": 10
+}
+
+
+{
+  "answer": "A water monitoring system is used to monitor and control water levels, quality, and pump performance in real-time for timely interventions. It can be implemented using wireless sensor networks, IoT platforms, and automation systems that use sensors to detect physical parameters such as pressure, flows, temperature, and water level.\n\nIn some cases, a water monitoring system may also include features such as remote sensing, data transmission to the internet, and alarm systems to alert users of potential issues.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": 660,
+      "document_id": 5,
+      "content": ", including the accuracy needed, the type of liquid being measured, and the environmental conditions. liquid level measurements are important for liquid level monitoring and control. in the case of water storage systems, monitoring is done to provide real - time data on water levels, quality, and water pump system performance for timely interventions, while control serves to regulate the filling, draining, and distribution of water within the storage systems for maintaining optimal levels. monitoring and controlling systems in residential, commercial, and industrial settings to ensure efficient operation, safety, and comfort are crucial. residential buildings make use of automation systems that control lighting, temperature, security cameras, and even appliances remotely, while commercial settings have heating, ventilation, and air conditioning ( hvac ) systems, lighting, access control, surveillance systems, and other necessities. in industries, advanced monitoring and control systems are use d to manage complex processes,",
+      "score": 0.695995569229126
+    },
+    {
+      "chunk_id": 687,
+      "document_id": 5,
+      "content": "system consists of contactors ( including bypass electromagnetic contactors ), fuses, soft starter, circuit breaker, flow switch, timer, and magnetic switch sensor. the system also contains an arduino board, high - level, medium - level, and low - level sensors, a smoke sensor, a passive infrared ( pir ) sensor, an analog to digital converter, an lcd, relays, and a sim900a gsm / gprs module. the method used by the system to monitor water levels is the use of two probes in the highest possible level labeled h and the lowest possible level labeled l. if the water reaches the h level, a water pump switch off command is sent, while when it reaches the l level, a water pump switch on command is sent. a system measuring four water parameters, based on arduino mega, esp8266 wifi module, and thingspeak iot platform was proposed by pasika & gandla",
+      "score": 0.6916186397302974
+    },
+    {
+      "chunk_id": 746,
+      "document_id": 5,
+      "content": "1 - 4842 - 2896 - 8 gast, m. ( 2005 ). 802. 11 wireless networks : the definitive guide. “ o ’ reilly media, inc. ” hadipour, m., derakhshandeh, j. f., & shiran, m. a. ( 2020 ). an experimental setup of multi - intelligent control system ( mics ) of water management using the internet of things ( iot ). isa transactions, 96, 309 – 326. https : / / doi. org / 10. 1016 / j. isatra. 2019. 06. 026 hasan, m. m. ( 2020 ). automatic water pump controller and water level detector with microcontroller ic. international research journal of engineering and technology. www. irjet. net jiang, p., xia, h., he, z., & wang, z. ( 2009 ). design of a water environment monitoring system based on wireless sensor networks",
+      "score": 0.6384330987930298
+    },
+    {
+      "chunk_id": 672,
+      "document_id": 5,
+      "content": "foremost essentiality in control and instrumentation. pressure, flows, temperature are measured in homes and industries ; heights in aviation ; speed in automotive ; as well as patients breathing rate in healthcare, are all measurable with sensors ( singh, 2005 ). when sensors are capable of obtaining data and reporting it remotely, these sensors are remotely sensing as well. remote sensing is not only limited to data from satellites. ( chen, 2007 ). remotely sensed data leads to the remote monitoring of the physical situation being sensed. remote monitoring of water using wireless sensor networks is based on low - cost and low - power sensors that automatically do the monitoring tasks and, in real - time, provide the data being monitored. the monitoring can be divided into parts : the data monitoring node or nodes and the data base station. the data monitoring nodes transmit the monitored data to the",
+      "score": 0.6290594339370728
+    },
+    {
+      "chunk_id": 682,
+      "document_id": 5,
+      "content": "8 internet. daily water consumption, hybrid control ( from the hardware or from the phone remotely ), text messages about the system information, volume of water in tank and tank overflow control are some of the features of the system. nath et al., 2022 presented a study on iot and radio frequency ( rf ) for an automatic water management system. minimizing waste water, saving power, and minimizing human intervention are the benefits that will be provided by the implementation of iot into water level management. the system further comprises an ultrasonic sensor and a water level sensor, a 433mhz rf transmitter and receiver, a 16x2 lcd, a pair of atmega328p, a two - channel relay module, and a pair of water pumps that run on 5v. the study is divided into two based on the prototype developed in it. the transmitter section ( located at the roof tank ) and the receiver section ( located at a reservoir tank of",
+      "score": 0.6070439996434452
+    },
+    {
+      "chunk_id": 701,
+      "document_id": 5,
+      "content": "16 table 2. 5. continuation of review of related works s / n author title of work done approach limitation 11 rakshitha & maheshan, 2020 a review on water level & quality monitoring system two ultrasonic sensors were part of the proposed methodology. one handles the storage tank, while the second ultrasonic sensor is in charge of an overhead tank, both for water level detection. arduino uno which is in charge of the overall task include the ph sensor data, turbidity sensor data, and the individual data from the two ultrasonic sensors. 12 nur ilham et al., 2020 design of an automatic water pump on a traditional boat this system function as a tool that controls the level of water in a boat by turning on and off the water pump engine automatically. it makes use of water sensor to detect water entering the boat, using water pump, water sensor, buzzer, and battery as source of power to the system.",
+      "score": 0.6048248410224915
+    },
+    {
+      "chunk_id": 663,
+      "document_id": 5,
+      "content": "monitoring can be done with solar energy, hence making the monitoring system independent in terms of power source. 1. 2 statement of the problem as explained in the work of parenreng et al., 2023, the location of the water tank is at a position higher than the floor level ; this is for proper flow of water into the house. this position will make it difficult for the user to find out the level of water in the tank at this location. similarly, this is based on human intervention, which cannot be compared to digitalizing the process using electronics. also, the forgetfulness of the user to turn off the water pump when the water tank is full can lead to wastage of water. the estimate in the study of qadir et al., 2020 is thatby 2030, wastewater is expected to increase by 24 %. it was also included that 158 million households could be powered by the energy embedded in wastewater. from the statements above, it can be deduced",
+      "score": 0.6013602018356323
+    },
+    {
+      "chunk_id": 638,
+      "document_id": 5,
+      "content": "......................................................... 5 2. 1. 1 internet of things ( iot )....................................................................................... 5 2. 1. 2 water monitoring system based on wireless sensor network........................... 5 2",
+      "score": 0.6005373835243365
+    },
+    {
+      "chunk_id": 671,
+      "document_id": 5,
+      "content": "connected to the internet ( cloud ) are hardware with resilient connectivity methods. multiple hardware can be connected to each other as in smart homes, which is one of the areas of application of iot, using technologies not limited to bidcos, z - wave, zigbe e, li - fi, redtacton, and wi - fi ( the internet of things ( iot ) and its application domains ). application of iot can be found in industries ( industrial internet of things - iiot ), energy internet of things - eiot ), smart cities and smart homes, healthcare, and agriculture, inclusive ( perwej et al., 2019 ). 2. 1. 2 water monitoring system based on wireless sensor network sensors convert various physical parameters into electrical signals, with their foremost essentiality in control and instrumentation. pressure, flows, temperature are measured in homes and industries ; heights in aviation ; speed in automotive ; as well as patients breathing rate in healthcare, are all me",
+      "score": 0.5952971577644348
+    },
+    {
+      "chunk_id": 691,
+      "document_id": 5,
+      "content": "while two ultrasonic sensors were part of the proposed methodology. one ultrasonic sensor handles the storage tank, while the second ultrasonic sensor is in charge of the overhead tank, both for water level detection. in combination, the inputs to the arduino uno which is in charge of the overall task include the ph sensor data, turbidity sensor data, and the individual data from the two ultrasonic sensors. in a different application is the work of nur ilham et al., 2020 where water pumping is implemented on a traditional boat. this system function as a tool that controls the level of water in a boat by turning on and off the water pump engine automatically. it makes use of water sensor to detect water entering the boat, in which when the water reaches the level of greater than or equal to 5cm height, it automatically starts a buzzer in the system for alarm. it also switches on the water pump to drain the water until the water does not reach the water sensor anymore",
+      "score": 0.5913310050964355
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "question": "What is a rag system?",
+  "document_ids": [
+    6
+  ],
+  "top_k": 5
+}
+
+
+
+{
+  "answer": "A rag system is a machine-learning technique that integrates information retrieval with generative AI to produce accurate and context-aware responses by equipping generative models with access to external data sources.",
+  "retrieved_chunks": [
+    {
+      "chunk_id": 769,
+      "document_id": 6,
+      "content": "retrieves only the text most relevant to the prompt, creating smaller augmented prompts that fit within llm context limits. 3. redundancy issues : rag ensures only the most pertinent information is passed to the llm, making it easier for the system to identify relevant details insource texts. 4. processing time : shorter augmented prompts in rag reduce the response generation time compared to non - rag systems that include all available sourceinformation within the augmented prompt. 5. cost implications : by using shorter augmented prompts, rag reduces response generation costs, especially for systems with extensive data sources. how does rag work? the following diagram illustrates the rag process for a basic rag system. note that this is just one possible representation, and alternative diagrams may resultfrom various modifications or adaptations of the rag system. however, this diagram captures the core concept, as all variations build on the common themespresented here : the steps in the rag process are as follows : 1. gather",
+      "score": 0.5284985303878784
+    },
+    {
+      "chunk_id": 770,
+      "document_id": 6,
+      "content": "adaptations of the rag system. however, this diagram captures the core concept, as all variations build on the common themespresented here : the steps in the rag process are as follows : 1. gather sources : start with sources like office documents, company policies, or any other relevant information that may provide context for the user ' s futureprompt. 2. embed sources : pass the gathered information through an embedding model. the embedding model converts each chunk of text into a vector representation, which is essentially a fixed - length column of numbers. 3. store vectors : store the embedded source vectors in a vector store — a specialized database optimized for storing and manipulating vector data. 4. obtain a user ' s prompt : receive a prompt from the user. 5. embed the user ' s prompt : embed the user ' s prompt using the same embedding model used for the source documents. this produces a prompt embedding, which is a vector of",
+      "score": 0.44927626848220825
+    },
+    {
+      "chunk_id": 763,
+      "document_id": 6,
+      "content": "introduction to rag estimated reading time : 10 minutes what is rag retrieval - augmented generation ( rag ) is a machine - learning technique that integrates information retrieval with generative ai to produce accurate and context - aware responses. by equipping generative models, such as large language models ( llms ), with access to external data sources, rag enhances the model ' s ability toprovide relevant and helpful answers to user prompts or queries. why rag? to understand the value of rag, we need to consider the limitations of generative models that aren ' t part of a rag system. the following image describes theresponse generation process of an llm that is not part of a rag pipeline : llms embedded in such pipelines cannot access external sources and are limited to the information provided by the user in a prompt and the information the llmwas trained on. consequently, these llms are prone to generating responses that may be : 1. inaccurate, 2. outdated,",
+      "score": 0.3781462537137428
+    },
+    {
+      "chunk_id": 764,
+      "document_id": 6,
+      "content": "information provided by the user in a prompt and the information the llmwas trained on. consequently, these llms are prone to generating responses that may be : 1. inaccurate, 2. outdated, or3. fabricated ( ' hallucinations ' ) additionally, such responses often lack valid sources, making it difficult to trace their origin or verify their accuracy. now, consider a generative model integratedinto an rag system. the diagram below outlines the response generation component of such a system : in an rag system, the key addition is the retrieved text, which is sourced from an external data store. steps are taken to ensure that the retrieved text aligns with theuser ' s original prompt. this retrieved text is then combined with the original prompt using methods such as simple concatenation or a structured prompt template,",
+      "score": 0.31539100408554077
+    },
+    {
+      "chunk_id": 766,
+      "document_id": 6,
+      "content": "sources, the system allows users to trace the information back to its origin, fostering greatertrust and enabling users to verify the accuracy of the response. what about models with long context lengths? rag was developed and gained popularity during a period when models with large context lengths were uncommon. today, models capable of handling contextlengths up to 128, 000 tokens or more are widely available. to put this into perspective, a token is a unit of text that can represent a word, part of a word, or evenpunctuation marks and spaces. since tokens are not strictly equivalent to words, the ratio of tokens to words can vary. in english, a good estimate is that 100 tokenscorrespond to about 75 words. based on this, a model with a 128, 000 - token context length can process an english text of approximately 96, 000 words. this is longenough to include numerous relevant details within a prompt, providing the model with substantial contextual",
+      "score": 0.21532276479466206
+    }
+  ]
+}
+
+
+{
+  "question": "What are the limitations of relying on models with long context lengths?",
+  "document_ids": [
+    6
+  ],
+  "top_k": 3
+}
+
+**add the answer**
